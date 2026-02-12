@@ -1,0 +1,12 @@
+# Values for the test chart
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: alpine
+
+secrets:
+  # These will be replaced by AVP from Vault
+  username: <username>
+  password: <password>
+  database_url: <database_url>
