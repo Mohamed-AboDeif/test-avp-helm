@@ -7,6 +7,6 @@ image:
 
 secrets:
   # These will be replaced by AVP from Vault
-  username: <secret>
-  password: <secret>
-  database_url: <secret>
+  username: <username>
+  password: <password>
+  database_url: <database_url>
